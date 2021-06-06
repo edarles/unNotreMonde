@@ -5,12 +5,12 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem "decidim", "0.24.3"
-# gem "decidim-conferences", "0.24.3"
-# gem "decidim-consultations", "0.24.3"
-# gem "decidim-elections", "0.24.3"
-# gem "decidim-initiatives", "0.24.3"
-# gem "decidim-templates", "0.24.3"
-
+gem "decidim-conferences", "0.24.3"
+gem "decidim-consultations", "0.24.3"
+gem "decidim-elections", "0.24.3"
+gem "decidim-initiatives", "0.24.3"
+gem "decidim-templates", "0.24.3"
+gem "figaro"
 gem "bootsnap", "~> 1.3"
 
 gem "puma", ">= 5.0.0"
